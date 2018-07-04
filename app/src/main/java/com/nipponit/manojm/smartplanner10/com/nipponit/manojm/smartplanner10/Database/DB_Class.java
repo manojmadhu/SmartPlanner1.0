@@ -157,6 +157,7 @@ public class DB_Class extends SQLiteOpenHelper {
             String Cus_detail = "SELECT * FROM dbo.GetCustomers ('"+SIM_SERIAL+"')";
             ResultSet rs_Cus_detail = stmt_area.executeQuery(Cus_detail);
 
+            //Clear customer master table
             if(rs_Cus_detail!=null){
                 DB.delete(TB_Customers,null,null);
             }
