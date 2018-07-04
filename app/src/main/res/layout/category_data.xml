@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme.NoActionBar"
+    android:layout_marginTop="0px"
+    android:layout_marginBottom="-10px"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/holo_orange_dark">
+
+
+        <TextView
+            android:id="@+id/textcategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="Enamal"
+            android:textColor="#ffff"
+            android:textSize="20dp"
+            />
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Target Value (Rs.)"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="15px"
+        android:fontFamily="monospace"/>
+    <EditText
+        android:id="@+id/textttarget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:inputType="numberDecimal"
+        android:hint="0.00"
+        android:layout_marginLeft="10px"
+        android:textColor="@color/colorBlack"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/btncancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-8px"
+                android:layout_marginRight="-10px"
+                android:layout_alignParentRight="true"
+                android:text="Cancel"
+                android:theme="@style/MaterialButton" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/MaterialOkButton"
+                android:layout_marginLeft="-10px"
+                android:layout_marginRight="-8px"
+                android:layout_alignParentLeft="true"
+                android:text="Add"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/lblCus_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer Code"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="5px"
+        />
+
+    <TextView
+        android:id="@+id/lblCus_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer Name"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/lblCus_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer City"
+        android:textColor="@color/colorBlack"
+        android:layout_marginBottom="5px"
+        />
+
+    <TextView
+        android:id="@+id/lblCus_target"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer Target"
+        android:textColor="@color/colorQuora"
+        android:layout_marginBottom="5px"
+        />
+
+</LinearLayout>

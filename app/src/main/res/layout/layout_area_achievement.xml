@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="0dp"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/headerlay"
+        android:layout_width="match_parent"
+        android:layout_height="135px"
+        android:orientation="vertical"
+        android:background="@color/holo_orange_light"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25px"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="0px"
+            android:orientation="horizontal"
+            >
+
+
+            <TextView
+                android:id="@+id/lbly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Year "/>
+            <TextView
+                android:id="@+id/lblyear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2017"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:text=" - "/>
+
+            <TextView
+                android:id="@+id/lblm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Month "/>
+
+            <TextView
+                android:id="@+id/lblmonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/labelheader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25px"
+                    android:layout_marginTop="5px"
+
+                    android:layout_marginBottom="5px"
+                    android:text="Company Target"/>
+
+                <TextView
+                    android:id="@+id/lbltottarget"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25px"
+                    android:text="Rs.0.00"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/labelheader1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25px"
+                    android:layout_marginTop="5px"
+
+                    android:layout_marginBottom="5px"
+                    android:text="My Achievement"/>
+
+                <TextView
+                    android:id="@+id/lbltotsale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25px"
+                    android:text="Rs.0.00"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <pl.pawelkleczkowski.customgauge.CustomGauge
+        android:id="@+id/gauge2"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        app:gaugeEndValue="100"
+        app:gaugePointEndColor="@color/colorPrimary"
+        app:gaugePointStartColor="@color/colorPrimary"
+        app:gaugeStartAngle="135"
+        app:gaugeStartValue="0"
+        app:gaugeStrokeCap="ROUND"
+        app:gaugeStrokeColor="@color/colorAccent"
+        app:gaugeStrokeWidth="15dp"
+        app:gaugeSweepAngle="270"
+        android:layout_below="@+id/headerlay"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_achievement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/gauge2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:text="0"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

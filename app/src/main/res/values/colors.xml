@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_orange_dark">#ffff8800</color>
+    <color name="holo_orange_2">#FDD835</color>
+
+    <color name="colorsilver">#C0C0C0</color>
+    <color name="colorQuora">#b92b27</color>
+    <color name="colorBlack">#263238</color>
+
+    <color name="colorteal">#00695C</color>
+    <color name="colorteal2">#00796B</color>
+
+    <color name="colorbuttonclick">#e57373</color>
+    <color name="colorbutton">#ef5350</color>
+    <color name="colorretry">#ff8f00</color>
+    <color name="colorretryclick">#ffc107</color>
+
+    <color name="colorwetasphalt">#34495e</color>
+    <color name="colorasbestos">#7f8c8d</color>
+
+    <color name="colorbar">#FF9800</color>
+
+    <color name="colorgrey">#78909C</color>
+    <color name="colorgrey2">#B0BEC5</color>
+
+
+
+
+
+</resources>

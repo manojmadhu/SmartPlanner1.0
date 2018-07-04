@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme.NoActionBar"
+    android:layout_marginTop="20px"
+    android:layout_marginBottom="0px"
+    android:weightSum="1"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="0px"
+        android:text="Select Option"
+        android:fontFamily="monospace"
+        android:textStyle="normal"
+        android:textSize="18dp"
+        android:textColor="@color/colorQuora"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorsilver"
+        android:layout_marginTop="15px"
+        android:layout_marginBottom="15px"
+        >
+
+    </View>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnareatarget"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="-8px"
+                android:layout_marginRight="-10px"
+                android:text="My Achievement"
+                android:theme="@style/MaterialhomeButton" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btncustarget"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="-10px"
+                android:layout_marginRight="-8px"
+                android:text="My Route"
+                android:theme="@style/MaterialhomeButton" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lblTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="monospace"/>
+
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme.NoActionBar"
+    android:layout_marginTop="20px"
+    android:layout_marginBottom="-10px"
+    android:weightSum="1"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="-0px"
+        android:text="Download Route Data"
+        android:fontFamily="monospace"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:textColor="@color/colorQuora"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorsilver"
+        android:layout_marginTop="10px"
+        android:layout_marginBottom="20px"
+        >
+
+    </View>
+
+    <TextView
+        android:id="@+id/txtlocName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Are you sure to download?It will takes some time."
+        android:fontFamily="monospace"
+        android:textStyle="normal"
+        android:textSize="19dp"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:textColor="@color/colorBlack"/>
+
+
+    <TextView
+        android:id="@+id/lblTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="monospace"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btncancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="-8px"
+                android:layout_marginRight="-10px"
+                android:text="Cancel"
+                android:theme="@style/MaterialButton" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnyes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="-10px"
+                android:layout_marginRight="-8px"
+                android:text="Yes"
+                android:theme="@style/MaterialRetryButton" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+

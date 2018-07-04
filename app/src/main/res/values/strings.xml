@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Smart Planner </string>
+    <string name="action_settings">Settings</string>
+    <string name="action_send">Send</string>
+    <string name="title_activity_category_figure">CategoryFigureActivity</string>
+
+
+    <string-array name="year_array">
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+    </string-array>
+
+    <string-array name="month_array">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="week_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+
+    <string-array name="day_array">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+
+    </string-array>
+
+
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_view_category_figure">ViewCategoryFigure</string>
+    <string name="title_activity_week">WeekActivity</string>
+    <string name="title_activity_customer">CustomerActivity</string>
+    <string name="title_activity_date">DateActivity</string>
+    <string name="title_activity_area__achievement">Area_Achievement</string>
+    <string name="title_activity_area_achievement_">AreaAchievement_Activity</string>
+    <string name="title_activity_week_achivement">WeekAchivementActivity</string>
+    <string name="title_activity_customer_manager">CustomerManager</string>
+</resources>

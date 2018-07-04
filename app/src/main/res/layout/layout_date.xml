@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="0dp"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="135px"
+        android:orientation="vertical"
+        android:background="@color/holo_orange_light"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25px"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="0px"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/lbly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Year "/>
+
+            <TextView
+                android:id="@+id/lblyear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2017"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:text=" - "/>
+
+            <TextView
+                android:id="@+id/lblm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Month "/>
+
+            <TextView
+                android:id="@+id/lblmonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:text=" - "/>
+
+
+            <TextView
+                android:id="@+id/lblw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="Week "/>
+
+            <TextView
+                android:id="@+id/lblweek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01"/>
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/lbld"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textStyle="bold"-->
+                <!--android:fontFamily="monospace"-->
+                <!--android:text=" Day - "/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/lblday"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="01"/>-->
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:weightSum="2">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/labelheader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25px"
+                    android:layout_marginTop="5px"
+
+                    android:layout_marginBottom="5px"
+                    android:text="Company Week Target"/>
+
+                <TextView
+                    android:id="@+id/lbltottarget"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25px"
+                    android:text="Rs.0.00"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/labelheader1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25px"
+                    android:layout_marginTop="5px"
+
+                    android:layout_marginBottom="5px"
+                    android:text="My Week Target"/>
+
+                <TextView
+                    android:id="@+id/lbltotsale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25px"
+                    android:text="Rs.0.00"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridView_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:verticalSpacing="15dp"
+        android:horizontalSpacing="5dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:verticalScrollbarPosition="right"
+        android:scrollbars="vertical"
+        android:gravity="center"
+        >
+    </GridView>
+</LinearLayout>

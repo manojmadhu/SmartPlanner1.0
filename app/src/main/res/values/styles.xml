@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/holo_orange_light</item>
+        <item name="colorPrimaryDark">@color/holo_orange_dark</item>
+        <item name="colorAccent">@color/holo_orange_dark</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/list_activated_background</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="FullHeightDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="MaterialButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorbuttonclick</item>
+        <item name="colorButtonNormal">@color/colorbutton</item>
+        <item name="android:textColor">#ffff</item>
+        <item name="android:height">85px</item>
+    </style>
+
+    <style name="MaterialhomeButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorasbestos</item>
+        <item name="colorButtonNormal">@color/colorwetasphalt</item>
+        <item name="android:textColor">#ffff</item>
+        <item name="android:height">85px</item>
+    </style>
+
+    <style name="MaterialRetryButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorretryclick</item>
+        <item name="colorButtonNormal">@color/colorretry</item>
+        <item name="android:textColor">#ffff</item>
+        <item name="android:height">85px</item>
+    </style>
+
+    <style name="MaterialOkButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorretryclick</item>
+        <item name="colorButtonNormal">@color/colorteal</item>
+        <item name="android:textColor">#ffff</item>
+        <item name="android:height">85px</item>
+    </style>
+
+    <style name="MaterialButtonUnass" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorteal2</item>
+        <item name="colorButtonNormal">@color/colorteal</item>
+        <item name="android:textColor">#ffff</item>
+        <item name="android:height">85px</item>
+    </style>
+
+    <style name="MaterialButtonSat" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorgrey2</item>
+        <item name="colorButtonNormal">@color/colorgrey</item>
+        <item name="android:textColor">#ffff</item>
+        <item name="android:height">85px</item>
+    </style>
+
+
+</resources>
